@@ -1,21 +1,88 @@
-<header>
-    <img src="logo.png" alt="NeuroSwasth Logo" width="150">
-    <h1>NeuroSwasth AI Healthcare</h1>
-</header>
 <!DOCTYPE html>
 <html>
 <head>
-<title>Neuro Swasth AI Assistant</title>
+<title>NeuroSwasth Login</title>
+
+<style>
+
+body{
+margin:0;
+padding:0;
+font-family: Arial;
+background-image:url("https://images.unsplash.com/photo-1581093588401-22f6c6a4d9f0");
+background-size:cover;
+background-position:center;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+background:white;
+padding:30px;
+border-radius:10px;
+width:350px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+h1{
+color:#2c7be5;
+}
+
+input{
+width:90%;
+padding:10px;
+margin:10px 0;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+width:100%;
+padding:10px;
+background:#2c7be5;
+color:white;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1a5dc8;
+}
+
+a{
+text-decoration:none;
+color:#2c7be5;
+}
+
+</style>
+
 </head>
 
 <body>
 
-<h1>Welcome to Neuro Swasth</h1>
-<p>AI Powered Healthcare Platform</p>
+<div class="container">
 
-<a href="login.html">Login</a>
-<br><br>
-<a href="register.html">Register</a>
+<h1>NeuroSwasth</h1>
+<h2>Login</h2>
+
+<form>
+
+<input type="email" placeholder="Enter Email" required>
+
+<input type="password" placeholder="Enter Password" required>
+
+<button type="submit">Login</button>
+
+<p>Don't have account? <a href="#">Sign Up</a></p>
+
+</form>
+
+</div>
 
 </body>
 </html>
